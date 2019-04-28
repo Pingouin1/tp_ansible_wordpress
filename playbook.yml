@@ -1,0 +1,8 @@
+- hosts: devopswebserv
+  sudo: True
+  roles:
+    - server
+    - ftp
+    - php
+    - mysql
+    - wordpress
